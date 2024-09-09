@@ -1,13 +1,14 @@
 ![MasterHeader](https://github.com/user-attachments/assets/6923837c-660e-434c-af1f-eb8643bce34f)
 
-
 <h1 align="center">Hello, I'm Chaitanya Khot</h1>
 <h3 align="center">A passionate learner from India</h3>
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/fc/71/63/fc71635c7f1b09ed30413f59bb749582.gif"> </br>
 
 - 👨‍💻 I’m currently Pursuing **Master of Computer Applications**
 
-- 🌱 I’m currently exploring the **Data Domain**
+- 💡 Passionate about **Problem Solving and Analysis**
+
+- 🌱 Currently exploring the **Data Domain**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
