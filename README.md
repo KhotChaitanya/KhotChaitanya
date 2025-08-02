@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/8ed20d09-57e9-4823-a936-dd3461251d3a" width="100%" />
+  <img src="https://github.com/user-attachments/assets/328f52e6-c802-473e-82a4-08b7a861c03f" width="100%" />
 </p>
 
 <h1 align="center">Hello, I'm Chaitanya Khot</h1>
