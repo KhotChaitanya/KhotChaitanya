@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Hello, I'm Chaitanya Khot</h1>
-<h3 align="center">Aspiring Full Stack & Data Engineer</h3>
+<h3 align="center">SDE & ML Intern</h3>
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/fc/71/63/fc71635c7f1b09ed30413f59bb749582.gif" width="300"/>
