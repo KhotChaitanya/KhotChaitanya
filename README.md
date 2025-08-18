@@ -13,7 +13,7 @@
 
 - 👨‍💻 Currently pursuing my **Master of Computer Applications (MCA)**
 - 💡 Passionate about **building systems and scalable solutions**
-- 🌱 Actively working on **ETL workflows, JavaScript apps, and AI/ML projects**
+- 🌱 Actively working on **ETL workflows, AI/ML projects, and Learning new Skills**
 
 ---
 
