@@ -43,5 +43,5 @@
 </p>
 
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=khotchaitanya&show_icons=true&locale=en" alt="GitHub Stats" />
+  <img align="center" src="https://nirzak-streak-stats.vercel.app/?user=KhotChaitanya&theme=default&hide_border=false" alt="GitHub Stats" />
 </p>
