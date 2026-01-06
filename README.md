@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/328f52e6-c802-473e-82a4-08b7a861c03f" width="100%" />
+  <img src="https://github.com/user-attachments/assets/57bde616-2693-4231-a287-59fcc533c856" width="100%" />
 </p>
 
 <h1 align="center">Hello, I'm Chaitanya Khot</h1>
-<h3 align="center">SDE & ML Intern</h3>
+<h3 align="center">AI-ML Intern</h3>
 
 <p align="center">
   <img src="https://i.pinimg.com/originals/fc/71/63/fc71635c7f1b09ed30413f59bb749582.gif" width="300"/>
