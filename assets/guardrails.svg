@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 290" width="100%" height="auto">
+  <defs>
+    <filter id="circuit-shadow" x="-3%" y="-3%" width="108%" height="108%">
+      <feDropShadow dx="6" dy="6" stdDeviation="0" flood-color="#121212" flood-opacity="1"/>
+    </filter>
+    <filter id="box-shadow" x="-5%" y="-5%" width="112%" height="112%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#121212" flood-opacity="1"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Main Container -->
+  <rect x="6" y="6" width="868" height="278" rx="12" fill="#FAF8F5" stroke="#121212" stroke-width="2.5" filter="url(#circuit-shadow)"/>
+
+  <!-- Window Header in Tangerine Orange -->
+  <path d="M 6 18 C 6 11.373 11.373 6 18 6 L 862 6 C 868.627 6 874 11.373 874 18 L 874 38 L 6 38 Z" fill="#FF6B00"/>
+  <line x1="6" y1="38" x2="874" y2="38" stroke="#121212" stroke-width="2.5"/>
+
+  <!-- Control Dots -->
+  <circle cx="26" cy="22" r="5.5" fill="#FF5F56" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="44" cy="22" r="5.5" fill="#FFBD2E" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="62" cy="22" r="5.5" fill="#27C93F" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Window Title: Independent Architecture -->
+  <text x="440" y="25" class="font-mono" font-size="11" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">
+    chaitanya@production: ~ (sop-guardrail-circuit --zero-hallucination)
+  </text>
+
+  <!-- Circuit Workflow Flowchart -->
+  <g transform="translate(24, 56)">
+    
+    <!-- Step 1: Input Ingestion -->
+    <g transform="translate(0, 24)">
+      <rect width="165" height="84" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#box-shadow)"/>
+      <rect width="165" height="24" rx="8" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="16" width="165" height="8" fill="#FFE600"/>
+      <line x1="0" y1="24" x2="165" y2="24" stroke="#121212" stroke-width="1.8"/>
+      <text x="82" y="16" class="font-mono" font-size="9" font-weight="900" fill="#121212" text-anchor="middle">01 / INGESTION</text>
+      <text x="82" y="44" class="font-mono" font-size="11" font-weight="800" fill="#121212" text-anchor="middle">Enterprise Query</text>
+      <text x="82" y="60" class="font-mono" font-size="8.5" font-weight="700" fill="#FF6B00" text-anchor="middle">SOP-Guard Ingest</text>
+      <text x="82" y="74" class="font-mono" font-size="8" font-weight="600" fill="#121212" opacity="0.75" text-anchor="middle">WhatsApp / WebRTC Stream</text>
+    </g>
+
+    <!-- Arrow 1 to 2 -->
+    <g transform="translate(165, 66)">
+      <line x1="0" y1="0" x2="35" y2="0" stroke="#121212" stroke-width="2.5"/>
+      <polygon points="35,0 27,-5 27,5" fill="#121212"/>
+    </g>
+
+    <!-- Step 2: Vector Retrieval & Cosine Evaluation -->
+    <g transform="translate(200, 24)">
+      <rect width="185" height="84" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#box-shadow)"/>
+      <rect width="185" height="24" rx="8" fill="#FAF8F5" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="16" width="185" height="8" fill="#FAF8F5"/>
+      <line x1="0" y1="24" x2="185" y2="24" stroke="#121212" stroke-width="1.8"/>
+      <text x="92" y="16" class="font-mono" font-size="9" font-weight="900" fill="#121212" text-anchor="middle">02 / PGVECTOR SEARCH</text>
+      <text x="92" y="44" class="font-mono" font-size="11" font-weight="800" fill="#121212" text-anchor="middle">Cross-Lingual Index</text>
+      <text x="92" y="60" class="font-mono" font-size="8.5" font-weight="700" fill="#121212" opacity="0.8" text-anchor="middle">Hindi / Marathi SOPs</text>
+      <text x="92" y="74" class="font-mono" font-size="8.5" font-weight="800" fill="#FF6B00" text-anchor="middle">Cosine Dist &lt;= 0.28 ?</text>
+    </g>
+
+    <!-- Split Connector -->
+    <path d="M 385 66 L 415 66 L 415 26 L 438 26" fill="none" stroke="#121212" stroke-width="2.5"/>
+    <polygon points="438,26 430,21 430,31" fill="#121212"/>
+    <text x="408" y="18" class="font-mono" font-size="8.5" font-weight="900" fill="#10B981">&gt;= 85%</text>
+
+    <path d="M 385 66 L 415 66 L 415 106 L 438 106" fill="none" stroke="#121212" stroke-width="2.5"/>
+    <polygon points="438,106 430,101 430,111" fill="#121212"/>
+    <text x="408" y="122" class="font-mono" font-size="8.5" font-weight="900" fill="#FF6B00">&lt; 85%</text>
+
+    <!-- Branch A: High Confidence Pass (Emerald Green Box) -->
+    <g transform="translate(442, 2)">
+      <rect width="390" height="52" rx="8" fill="#FFFFFF" stroke="#10B981" stroke-width="2" filter="url(#box-shadow)"/>
+      <rect x="0" y="0" width="8" height="52" rx="4" fill="#10B981"/>
+      <text x="18" y="20" class="font-mono" font-size="10.5" font-weight="900" fill="#121212">Grounded SOP Answer Stream [VERIFIED]</text>
+      <text x="18" y="34" class="font-mono" font-size="9" font-weight="700" fill="#10B981">SOP-Guard • Direct Chapter &amp; Section Citation</text>
+      <text x="18" y="45" class="font-mono" font-size="8" font-weight="600" fill="#121212" opacity="0.75">Deterministic match • Zero hallucination allowed</text>
+    </g>
+
+    <!-- Branch B: Low Confidence Fallback Circuit (Tangerine Box) -->
+    <g transform="translate(442, 82)">
+      <rect width="390" height="52" rx="8" fill="#FFFFFF" stroke="#FF6B00" stroke-width="2" filter="url(#box-shadow)"/>
+      <rect x="0" y="0" width="8" height="52" rx="4" fill="#FF6B00"/>
+      <text x="18" y="20" class="font-mono" font-size="10.5" font-weight="900" fill="#121212">Zero-Hallucination Fallback [ESCALATE]</text>
+      <text x="18" y="34" class="font-mono" font-size="9" font-weight="700" fill="#FF6B00">Auto-Escalates Ticket to Support Specialist</text>
+      <text x="18" y="45" class="font-mono" font-size="8" font-weight="600" fill="#121212" opacity="0.75">Suppresses hallucination • Logs 60+ days telemetry</text>
+    </g>
+
+    <!-- Bottom Feature Badges (Completely NDA-Safe) -->
+    <g transform="translate(0, 154)">
+      <rect width="215" height="24" rx="4" fill="#FFE600" stroke="#121212" stroke-width="1.8"/>
+      <text x="107" y="16" class="font-mono" font-size="8.5" font-weight="900" fill="#121212" text-anchor="middle">SOP-GUARD RAG CIRCUIT</text>
+
+      <rect x="225" width="195" height="24" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="1.8"/>
+      <text x="322" y="16" class="font-mono" font-size="8.5" font-weight="800" fill="#121212" text-anchor="middle">✓ DETERMINISTIC FALLBACK</text>
+
+      <rect x="430" width="200" height="24" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="1.8"/>
+      <text x="530" y="16" class="font-mono" font-size="8.5" font-weight="800" fill="#121212" text-anchor="middle">✓ 60+ DAYS AUDIT TELEMETRY</text>
+
+      <rect x="640" width="192" height="24" rx="4" fill="#10B981" stroke="#121212" stroke-width="1.8"/>
+      <text x="736" y="16" class="font-mono" font-size="8.5" font-weight="900" fill="#FFFFFF" text-anchor="middle">✓ ZERO-HALLUCINATION SLA</text>
+    </g>
+
+  </g>
+</svg>

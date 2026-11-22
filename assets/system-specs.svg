@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="auto">
+  <defs>
+    <!-- Hard Neo-Brutalist Shadow -->
+    <filter id="neo-shadow" x="-3%" y="-3%" width="108%" height="108%">
+      <feDropShadow dx="6" dy="6" stdDeviation="0" flood-color="#121212" flood-opacity="1"/>
+    </filter>
+    <filter id="box-shadow" x="-5%" y="-5%" width="112%" height="112%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#121212" flood-opacity="1"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Neo-Brutalist Terminal Card: Ivory Background with Solid Black Border & Hard Shadow -->
+  <rect x="6" y="6" width="868" height="328" rx="12" fill="#FAF8F5" stroke="#121212" stroke-width="2.5" filter="url(#neo-shadow)"/>
+
+  <!-- Window Header in Solar Yellow with Hard Separator -->
+  <path d="M 6 18 C 6 11.373 11.373 6 18 6 L 862 6 C 868.627 6 874 11.373 874 18 L 874 38 L 6 38 Z" fill="#FFE600"/>
+  <line x1="6" y1="38" x2="874" y2="38" stroke="#121212" stroke-width="2.5"/>
+
+  <!-- Window Control Dots with Bold Black Outlines -->
+  <circle cx="26" cy="22" r="5.5" fill="#FF5F56" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="44" cy="22" r="5.5" fill="#FFBD2E" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="62" cy="22" r="5.5" fill="#27C93F" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Terminal Header Title -->
+  <text x="440" y="25" class="font-mono" font-size="11" font-weight="900" fill="#121212" text-anchor="middle" letter-spacing="0.5">
+    chaitanya@production-systems: ~ (fastfetch --ai-runtime)
+  </text>
+
+  <!-- Content Workspace -->
+  <g transform="translate(30, 56)">
+    
+    <!-- Shell Command Prompt (Box width 440px for generous breathing room) -->
+    <g transform="translate(0, 10)">
+      <rect width="440" height="22" rx="4" fill="#FFFFFF" stroke="#121212" stroke-width="1.5"/>
+      <text x="10" y="15" class="font-mono" font-size="11" font-weight="800" fill="#121212">
+        chaitanya@production:<tspan fill="#FF6B00">~</tspan>$ <tspan font-weight="600">fastfetch --profile ai-systems</tspan>
+      </text>
+    </g>
+
+    <!-- Left Highlight Box (Solar Yellow Brutalist Box) -->
+    <g transform="translate(0, 44)">
+      <rect width="134" height="175" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#box-shadow)"/>
+      <rect width="134" height="34" rx="8" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="24" width="134" height="10" fill="#FFE600"/>
+      <line x1="0" y1="34" x2="134" y2="34" stroke="#121212" stroke-width="2"/>
+      <text x="67" y="23" class="font-mono" font-size="15" font-weight="900" fill="#121212" text-anchor="middle">⚡ AI/ML</text>
+      
+      <text x="67" y="60" class="font-mono" font-size="9" font-weight="800" fill="#121212" text-anchor="middle" letter-spacing="1">SYSTEMS</text>
+      <text x="67" y="75" class="font-mono" font-size="9" font-weight="800" fill="#121212" text-anchor="middle" letter-spacing="1">ENGINEER</text>
+      <text x="67" y="90" class="font-mono" font-size="9" font-weight="800" fill="#FF6B00" text-anchor="middle" letter-spacing="1">PRODUCTION</text>
+      
+      <rect x="27" y="108" width="80" height="24" rx="12" fill="#10B981" stroke="#121212" stroke-width="1.8"/>
+      <text x="67" y="124" class="font-mono" font-size="10" font-weight="900" fill="#FFFFFF" text-anchor="middle">PROD</text>
+      
+      <text x="67" y="156" class="font-mono" font-size="8.5" font-weight="800" fill="#121212" text-anchor="middle">VERIFIED 1+ YR</text>
+    </g>
+
+    <!-- Right Specs List (High-Contrast Neo-Brutalist Typography & NDA-Safe Attribution) -->
+    <g transform="translate(156, 44)">
+      
+      <!-- Role Title Header with Status Dot -->
+      <g transform="translate(0, 0)">
+        <circle cx="6" cy="7" r="4.5" fill="#10B981"/>
+        <text x="18" y="11" class="font-sans" font-size="13" font-weight="900" fill="#121212">Chaitanya Khot</text>
+        <text x="130" y="11" class="font-mono" font-size="11" font-weight="700" fill="#121212" opacity="0.6">•</text>
+        <text x="144" y="11" class="font-sans" font-size="12" font-weight="800" fill="#FF6B00">AI/ML Systems Engineer (Production Runtimes)</text>
+      </g>
+      <line x1="0" y1="20" x2="650" y2="20" stroke="#121212" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+      <!-- Spec Line 1: Voice AI Pipeline -->
+      <g transform="translate(0, 38)">
+        <rect width="145" height="17" rx="3" fill="#FFE600" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">Voice AI Pipeline</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">VoxStream • WebRTC Push-to-Talk (Pipecat + LiveKit) • <tspan font-weight="800" fill="#10B981">&lt;800ms Latency</tspan></text>
+      </g>
+
+      <!-- Spec Line 2: Enterprise RAG -->
+      <g transform="translate(0, 58)">
+        <rect width="145" height="17" rx="3" fill="#FAF8F5" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">Enterprise RAG</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">SOP-Guard • Cross-Lingual pgvector (Hindi/Marathi → English)</text>
+      </g>
+
+      <!-- Spec Line 3: Agentic Workspaces -->
+      <g transform="translate(0, 78)">
+        <rect width="145" height="17" rx="3" fill="#FFE600" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">Agentic Workspace</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">Synthia-Graph • 10-Agent Autonomous DAG (arXiv to IEEE Docx)</text>
+      </g>
+
+      <!-- Spec Line 4: Support Bot & Telemetry -->
+      <g transform="translate(0, 98)">
+        <rect width="145" height="17" rx="3" fill="#FAF8F5" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">SOP Support Bot</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">DocuQuery • 24/7 AI SOP Grounding &amp; Fallback Circuit (60+ days logs)</text>
+      </g>
+
+      <!-- Spec Line 5: First-Principles ML -->
+      <g transform="translate(0, 118)">
+        <rect width="145" height="17" rx="3" fill="#FFE600" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">First-Principles ML</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">NumPy Kernels • Vectorized matrix distance &amp; gradient optimizers</text>
+      </g>
+
+      <!-- Spec Line 6: Deployment Stack -->
+      <g transform="translate(0, 138)">
+        <rect width="145" height="17" rx="3" fill="#FAF8F5" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">Deployment Stack</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">Production • FastAPI • Docker • Supabase • Redis • GitHub Actions</text>
+      </g>
+
+      <!-- Spec Line 7: Quality & Field QA -->
+      <g transform="translate(0, 158)">
+        <rect width="145" height="17" rx="3" fill="#FFE600" stroke="#121212" stroke-width="1"/>
+        <text x="6" y="12" class="font-mono" font-size="9.5" font-weight="800" fill="#121212">Engineering Rigor</text>
+        <text x="153" y="12" class="font-mono" font-size="10.5" font-weight="700" fill="#121212">:</text>
+        <text x="168" y="12" class="font-mono" font-size="10.5" font-weight="600" fill="#121212">Testing Suite • PyTest Unit/E2E • RBAC verification • Transit field QA</text>
+      </g>
+
+      <!-- Neo-Brutalist Color Swatches with Black Outlines -->
+      <g transform="translate(168, 180)">
+        <rect x="0" width="22" height="13" rx="2" fill="#121212" stroke="#121212" stroke-width="1"/>
+        <rect x="27" width="22" height="13" rx="2" fill="#FFE600" stroke="#121212" stroke-width="1"/>
+        <rect x="54" width="22" height="13" rx="2" fill="#FF6B00" stroke="#121212" stroke-width="1"/>
+        <rect x="81" width="22" height="13" rx="2" fill="#10B981" stroke="#121212" stroke-width="1"/>
+        <rect x="108" width="22" height="13" rx="2" fill="#FAF8F5" stroke="#121212" stroke-width="1"/>
+        <rect x="135" width="22" height="13" rx="2" fill="#FFFFFF" stroke="#121212" stroke-width="1"/>
+      </g>
+
+    </g>
+  </g>
+</svg>

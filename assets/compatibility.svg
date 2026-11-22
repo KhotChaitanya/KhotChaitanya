@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="auto">
+  <defs>
+    <filter id="compat-shadow" x="-3%" y="-3%" width="108%" height="108%">
+      <feDropShadow dx="6" dy="6" stdDeviation="0" flood-color="#121212" flood-opacity="1"/>
+    </filter>
+    <filter id="card-shadow" x="-5%" y="-5%" width="112%" height="112%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#121212" flood-opacity="1"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+
+  <!-- Main Container -->
+  <rect x="6" y="6" width="868" height="258" rx="12" fill="#FAF8F5" stroke="#121212" stroke-width="2.5" filter="url(#compat-shadow)"/>
+
+  <!-- Window Header in Solar Yellow -->
+  <path d="M 6 18 C 6 11.373 11.373 6 18 6 L 862 6 C 868.627 6 874 11.373 874 18 L 874 38 L 6 38 Z" fill="#FFE600"/>
+  <line x1="6" y1="38" x2="874" y2="38" stroke="#121212" stroke-width="2.5"/>
+
+  <!-- Control Dots -->
+  <circle cx="26" cy="22" r="5.5" fill="#FF5F56" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="44" cy="22" r="5.5" fill="#FFBD2E" stroke="#121212" stroke-width="1.5"/>
+  <circle cx="62" cy="22" r="5.5" fill="#27C93F" stroke="#121212" stroke-width="1.5"/>
+
+  <!-- Window Title with Generic Engineering Scope -->
+  <text x="440" y="25" class="font-mono" font-size="11" font-weight="900" fill="#121212" text-anchor="middle" letter-spacing="0.5">
+    chaitanya@production: ~ (infrastructure-compatibility --verified-stacks)
+  </text>
+
+  <!-- 4-Column Grid -->
+  <g transform="translate(24, 52)">
+    
+    <!-- Col 1: Real-Time Transport (VoxStream / WebRTC) -->
+    <g transform="translate(0, 0)">
+      <rect width="195" height="190" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#card-shadow)"/>
+      <rect width="195" height="32" rx="8" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="22" width="195" height="10" fill="#FFE600"/>
+      <line x1="0" y1="32" x2="195" y2="32" stroke="#121212" stroke-width="1.8"/>
+      <text x="97" y="16" class="font-mono" font-size="8.5" font-weight="900" fill="#121212" text-anchor="middle">01 / REAL-TIME TRANSPORT</text>
+      <text x="97" y="27" class="font-mono" font-size="7.5" font-weight="700" fill="#FF6B00" text-anchor="middle">VOXSTREAM / AUDIO WEBRTC</text>
+
+      <g transform="translate(14, 52)">
+        <text x="0" y="0" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">WebRTC (LiveKit)</tspan></text>
+        <text x="0" y="25" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">WebSockets Duplex</tspan></text>
+        <text x="0" y="50" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">FastAPI REST Endpoints</tspan></text>
+        <text x="0" y="75" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Push-to-Talk Audio</tspan></text>
+        <text x="0" y="100" class="font-mono" font-size="9" font-weight="800" fill="#FF6B00">&lt;800ms Stream SLA</text>
+      </g>
+    </g>
+
+    <!-- Col 2: Data & Vector Stores (Synthia-Graph & Enterprise RAG) -->
+    <g transform="translate(212, 0)">
+      <rect width="195" height="190" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#card-shadow)"/>
+      <rect width="195" height="32" rx="8" fill="#FAF8F5" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="22" width="195" height="10" fill="#FAF8F5"/>
+      <line x1="0" y1="32" x2="195" y2="32" stroke="#121212" stroke-width="1.8"/>
+      <text x="97" y="16" class="font-mono" font-size="8.5" font-weight="900" fill="#121212" text-anchor="middle">02 / DATA &amp; VECTORS</text>
+      <text x="97" y="27" class="font-mono" font-size="7.5" font-weight="700" fill="#121212" opacity="0.75" text-anchor="middle">SYNTHIA-GRAPH &amp; RAG</text>
+
+      <g transform="translate(14, 52)">
+        <text x="0" y="0" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">PostgreSQL (pgvector)</tspan></text>
+        <text x="0" y="25" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Supabase Real-time DB</tspan></text>
+        <text x="0" y="50" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Redis Cache &amp; PubSub</tspan></text>
+        <text x="0" y="75" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Hindi/Marathi Ingest</tspan></text>
+        <text x="0" y="100" class="font-mono" font-size="9" font-weight="800" fill="#FF6B00">Cosine Dist &lt;= 0.28</text>
+      </g>
+    </g>
+
+    <!-- Col 3: Container Runtimes (Containerized Systems) -->
+    <g transform="translate(424, 0)">
+      <rect width="195" height="190" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#card-shadow)"/>
+      <rect width="195" height="32" rx="8" fill="#FFE600" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="22" width="195" height="10" fill="#FFE600"/>
+      <line x1="0" y1="32" x2="195" y2="32" stroke="#121212" stroke-width="1.8"/>
+      <text x="97" y="16" class="font-mono" font-size="8.5" font-weight="900" fill="#121212" text-anchor="middle">03 / RUNTIMES &amp; DEVOPS</text>
+      <text x="97" y="27" class="font-mono" font-size="7.5" font-weight="700" fill="#FF6B00" text-anchor="middle">CONTAINERIZED SYSTEMS</text>
+
+      <g transform="translate(14, 52)">
+        <text x="0" y="0" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Docker Multi-Stage</tspan></text>
+        <text x="0" y="25" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Linux Ubuntu LTS</tspan></text>
+        <text x="0" y="50" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">GitHub Actions CI/CD</tspan></text>
+        <text x="0" y="75" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Apple Metal MPS/CUDA</tspan></text>
+        <text x="0" y="100" class="font-mono" font-size="9" font-weight="800" fill="#10B981">Production Hardened</text>
+      </g>
+    </g>
+
+    <!-- Col 4: Testing & Telemetry (Field QA & Security) -->
+    <g transform="translate(636, 0)">
+      <rect width="195" height="190" rx="8" fill="#FFFFFF" stroke="#121212" stroke-width="2" filter="url(#card-shadow)"/>
+      <rect width="195" height="32" rx="8" fill="#10B981" stroke="#121212" stroke-width="2"/>
+      <rect x="0" y="22" width="195" height="10" fill="#10B981"/>
+      <line x1="0" y1="32" x2="195" y2="32" stroke="#121212" stroke-width="1.8"/>
+      <text x="97" y="16" class="font-mono" font-size="8.5" font-weight="900" fill="#FFFFFF" text-anchor="middle">04 / RELIABILITY &amp; QA</text>
+      <text x="97" y="27" class="font-mono" font-size="7.5" font-weight="700" fill="#FFFFFF" opacity="0.9" text-anchor="middle">FIELD &amp; CODE QA</text>
+
+      <g transform="translate(14, 52)">
+        <text x="0" y="0" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">PyTest Unit &amp; E2E</tspan></text>
+        <text x="0" y="25" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">RBAC Security Testing</tspan></text>
+        <text x="0" y="50" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">Android Field QA</tspan></text>
+        <text x="0" y="75" class="font-mono" font-size="10" font-weight="700" fill="#10B981">✓ <tspan fill="#121212" font-weight="600">60+ Days Telemetry</tspan></text>
+        <text x="0" y="100" class="font-mono" font-size="9" font-weight="800" fill="#10B981">Deterministic Code</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
