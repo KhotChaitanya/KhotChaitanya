@@ -31,28 +31,28 @@
   <table border="0">
     <tr>
       <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/certification-ai-engineer-for-developers-associate-badge.png" height="110" alt="AI Engineer for Developers" /></a>
+        <a href="https://www.datacamp.com/certificate/AIEDA0010072473680"><img src="assets/badges/certification-ai-engineer-for-developers-associate-badge.png" height="110" alt="AI Engineer for Developers" /></a>
         <br/><br/>
         <b>AI Engineer for Developers</b>
         <br/>
         <sub>DataCamp • Associate</sub>
       </td>
       <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/mckinsey-org-forward-program.png" height="110" alt="McKinsey Forward Program" /></a>
+        <a href="https://www.credly.com/badges/5c729980-fb94-4d67-82ca-093f07179b1b/public_url"><img src="assets/badges/mckinsey-org-forward-program.png" height="110" alt="McKinsey Forward Program" /></a>
         <br/><br/>
         <b>McKinsey Forward</b>
         <br/>
         <sub>McKinsey &amp; Company</sub>
       </td>
       <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/artificial-intelligence-fundamentals.png" height="110" alt="AI Fundamentals" /></a>
+        <a href="https://www.credly.com/badges/4a89b6f8-3697-4bea-8de0-a852cabd70ab/public_url"><img src="assets/badges/artificial-intelligence-fundamentals.png" height="110" alt="AI Fundamentals" /></a>
         <br/><br/>
         <b>AI Fundamentals</b>
         <br/>
         <sub>IBM • Neural Nets &amp; ML</sub>
       </td>
       <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/data-analytics-essentials.png" height="110" alt="Data Analytics Essentials" /></a>
+        <a href="https://www.credly.com/badges/3faddd9e-5daf-4226-a14d-39b285362816/public_url"><img src="assets/badges/data-analytics-essentials.png" height="110" alt="Data Analytics Essentials" /></a>
         <br/><br/>
         <b>Data Analytics Essentials</b>
         <br/>
@@ -93,45 +93,6 @@
 <p align="center">
   <img src="assets/compatibility.svg" alt="Infrastructure & Protocol Compatibility" width="100%" />
 </p>
-
----
-
-### 📜 Verified Credentials & Badges
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/certification-ai-engineer-for-developers-associate-badge.png" height="110" alt="AI Engineer for Developers" /></a>
-        <br/><br/>
-        <b>AI Engineer for Developers</b>
-        <br/>
-        <sub>DataCamp • Associate</sub>
-      </td>
-      <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/mckinsey-org-forward-program.png" height="110" alt="McKinsey Forward Program" /></a>
-        <br/><br/>
-        <b>McKinsey Forward</b>
-        <br/>
-        <sub>McKinsey &amp; Company</sub>
-      </td>
-      <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/artificial-intelligence-fundamentals.png" height="110" alt="AI Fundamentals" /></a>
-        <br/><br/>
-        <b>AI Fundamentals</b>
-        <br/>
-        <sub>IBM • Neural Nets &amp; ML</sub>
-      </td>
-      <td align="center" width="25%" valign="top">
-        <a href="https://linkedin.com/in/mr-chaitanya-khot"><img src="assets/badges/data-analytics-essentials.png" height="110" alt="Data Analytics Essentials" /></a>
-        <br/><br/>
-        <b>Data Analytics Essentials</b>
-        <br/>
-        <sub>Cisco • Statistical Analysis</sub>
-      </td>
-    </tr>
-  </table>
-</div>
 
 ---
 
