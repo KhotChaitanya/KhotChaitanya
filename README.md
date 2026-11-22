@@ -72,19 +72,32 @@
 
 ---
 
+### 🛠️ Languages & Tools
+
+| 👨‍💻 Core & Languages | 🧠 AI, ML & Frameworks | 🗄️ Databases & Vector Stores | 🧰 DevOps & Full-Stack |
+|:---:|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="34"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="34"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="34"/>&nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="34"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="34"/> |
+
+
+---
+
 ### 🛡️ Enterprise Guardrails & Deterministic Fallback Circuit
 
 <p align="center">
   <img src="assets/guardrails.svg" alt="Enterprise Guardrails & Fallback Circuit" width="100%" />
 </p>
 
+
+
 ---
 
-### 🛠️ Languages & Tools
+### Contribution Activity
 
-| 👨‍💻 Core & Languages | 🧠 AI, ML & Frameworks | 🗄️ Databases & Vector Stores | 🧰 DevOps & Full-Stack |
-|:---:|:---:|:---:|:---:|
-| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="34"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="34"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="34"/>&nbsp;&nbsp;<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="34"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" width="34"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="34"/> |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhotChaitanya/KhotChaitanya/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhotChaitanya/KhotChaitanya/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/KhotChaitanya/KhotChaitanya/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 ---
 
@@ -93,13 +106,3 @@
 <p align="center">
   <img src="assets/compatibility.svg" alt="Infrastructure & Protocol Compatibility" width="100%" />
 </p>
-
----
-
-### 🐍 Contribution Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KhotChaitanya/KhotChaitanya/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KhotChaitanya/KhotChaitanya/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/KhotChaitanya/KhotChaitanya/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
